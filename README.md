@@ -1,6 +1,6 @@
 # binary-files-lister
 
-PowerShell script that lists binary files at the given directory path.
+:zap: PowerShell script that lists binary files at the given directory path.
 
 ## Dependencies
 
