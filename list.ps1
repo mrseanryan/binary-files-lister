@@ -5,12 +5,14 @@ param(
 )
 
 if (-not $dirPath) {
-    Write-Output("USAGE: list.ps1 <path to directory> [-dependencies] [-filter=MyText]")
+    Write-Output("USAGE: list.ps1 <path to directory> [OPTIONS]")
     Write-Output("  OPTIONS:")
-    Write-Output("  -dependencies - Also show the .NET dependencies")
-    Write-Output("  -filter - Filter to filenames that contain the given text")
+    Write-Output("  dependencies - Also show the .NET dependencies")
+    Write-Output("  filter - Filter to filenames that contain the given text")
     Exit
 }
+
+# TODO use proper options like with '-' prefix
 
 function ProcessFilterByNameOption($value) {
     if ($value.StartsWith("filter=")) {

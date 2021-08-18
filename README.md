@@ -9,8 +9,22 @@
 
 ## Usage
 
+### To view help:
+
+```
+.\list.ps1
+```
+
+### Basic usage:
+
 ```
 .\list.ps1 c:\my-directory
+```
+
+### With options:
+
+```
+.\list.ps1 c:\my-directory filter=MyCompany dependencies
 ```
 
 ## Example output
