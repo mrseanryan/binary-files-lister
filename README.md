@@ -15,6 +15,15 @@
 .\list.ps1
 ```
 
+Output:
+
+```
+USAGE: list.ps1 <path to directory> [OPTIONS]
+  OPTIONS:
+  dependencies - Also show the .NET dependencies
+  filter - Filter to filenames that contain the given text
+```
+
 ### Basic usage:
 
 ```
